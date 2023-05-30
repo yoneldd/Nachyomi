@@ -6,7 +6,7 @@
     // Define the redirect function
     function redirect() {
       var date = new Date();
-      var dateStart = new Date("May 30, 2023");
+      var dateStart = new Date("May 26, 2023");
 	var dif = Math.floor((date.getTime()-dateStart.getTime())/1000/3600/24)*2+1;
 	if(dif<24) {
 		window.location.href = "https://www.sefaria.org.il/".concat("Joshua.",dif+1);
