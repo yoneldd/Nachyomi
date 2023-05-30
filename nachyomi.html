@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Redirect</title>
+  <script>
+    // Define the redirect function
+    function redirect() {
+      var date = new Date();
+      var dateStart = new Date("May 30, 2023");
+	var dif = Math.floor((date.getTime()-dateStart.getTime())/1000/3600/24)*2;
+	if(dif<24) {
+		window.location.href = "https://www.sefaria.org.il/".concat("Joshua.",dif+1);
+	} else if(dif<45) {
+		window.location.href = "https://www.sefaria.org.il/".concat("Judges.",dif-23);
+	} else if(dif<76) {
+		window.location.href = "https://www.sefaria.org.il/".concat("I_Samuel.",dif-44);
+	} else if(dif<100) {
+		window.location.href = "https://www.sefaria.org.il/".concat("II_Samuel.",dif-75);
+	} else if(dif<122) {
+		window.location.href = "https://www.sefaria.org.il/".concat("I_Kings.",dif-99);
+	} else if(dif<147) {
+		window.location.href = "https://www.sefaria.org.il/".concat("II_Kings.",dif-121);
+	} else if(dif<213) {
+		window.location.href = "https://www.sefaria.org.il/".concat("Isaiah.",dif-146);
+	} else if(dif<265) {
+		window.location.href = "https://www.sefaria.org.il/".concat("Jeremiah.",dif-212);
+	} else if(dif<313) {
+		window.location.href = "https://www.sefaria.org.il/".concat("Ezekiel.",dif-264);
+	} else if(dif<327) {
+		window.location.href = "https://www.sefaria.org.il/".concat("Hosea.",dif-312);
+	} else if(dif<331) {
+		window.location.href = "https://www.sefaria.org.il/".concat("Joel.",dif-326);
+	} else if(dif<340) {
+		window.location.href = "https://www.sefaria.org.il/".concat("Amos.",dif-330);
+	} else if(dif<341) {
+		window.location.href = "https://www.sefaria.org.il/".concat("Obadiah.",dif-339);
+	} else if(dif<345) {
+		window.location.href = "https://www.sefaria.org.il/".concat("Jonah.",dif-340);
+	} else if(dif<352) {
+		window.location.href = "https://www.sefaria.org.il/".concat("Micah.",dif-344);
+	} else if(dif<355) {
+		window.location.href = "https://www.sefaria.org.il/".concat("Nahum.",dif-351);
+	} else if(dif<358) {
+		window.location.href = "https://www.sefaria.org.il/".concat("Habakkuk.",dif-354);
+	} else if(dif<361) {
+		window.location.href = "https://www.sefaria.org.il/".concat("Zephaniah.",dif-357);
+	} else if(dif<363) {
+		window.location.href = "https://www.sefaria.org.il/".concat("Haggai.",dif-360);
+	} else if(dif<377) {
+		window.location.href = "https://www.sefaria.org.il/".concat("Zechariah.",dif-362);
+	} else if(dif<380) {
+		window.location.href = "https://www.sefaria.org.il/".concat("Malachi.",dif-376);
+	} else if(dif<530) {
+		window.location.href = "https://www.sefaria.org.il/".concat("Psalms.",dif-379);
+	} else if(dif<561) {
+		window.location.href = "https://www.sefaria.org.il/".concat("Proverbs.",dif-529);
+	} else if(dif<603) {
+		window.location.href = "https://www.sefaria.org.il/".concat("Job.",dif-560);
+	} else if(dif<611) {
+		window.location.href = "https://www.sefaria.org.il/".concat("Song_of_Songs.",dif-602);
+	} else if(dif<615) {
+		window.location.href = "https://www.sefaria.org.il/".concat("Ruth.",dif-610);
+	} else if(dif<620) {
+		window.location.href = "https://www.sefaria.org.il/".concat("Lamentations.",dif-614);
+	} else if(dif<632) {
+		window.location.href = "https://www.sefaria.org.il/".concat("Ecclesiastes.",dif-619);
+	} else if(dif<642) {
+		window.location.href = "https://www.sefaria.org.il/".concat("Esther.",dif-631);
+	} else if(dif<654) {
+		window.location.href = "https://www.sefaria.org.il/".concat("Daniel.",dif-641);
+	} else if(dif<664) {
+		window.location.href = "https://www.sefaria.org.il/".concat("Ezra.",dif-653);
+	} else if(dif<677) {
+		window.location.href = "https://www.sefaria.org.il/".concat("Nehemiah.",dif-663);
+	} else if(dif<706) {
+		window.location.href = "https://www.sefaria.org.il/".concat("I_Chronicles.",dif-676);
+	} else if(dif<741){
+		window.location.href = "https://www.sefaria.org.il/".concat("II_Chronicles.",dif-705);
+	}
+    }
+  </script>
+</head>
+<body>
+  <script>
+    // Call the redirect function when the page loads
+    redirect();
+  </script>
+</body>
+</html>
